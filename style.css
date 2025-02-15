@@ -11,7 +11,20 @@ body{
     background-position: center;
     background-size: cover;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    animation:moveBodyUpDown 10s ease-in-out infinite;
     background-image: url("https://images.pexels.com/photos/1590549/pexels-photo-1590549.jpeg")
+}
+
+@keyframes moveBodyUpDown{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-20px);
+    }
+    100%{
+        transform: translateY(0);
+    }
 }
 
 .content{
@@ -47,6 +60,17 @@ button:hover{
     color: rgba(204, 123, 188, 0.9);
     cursor: pointer;
     box-shadow:5px 5px rgb(243, 186, 101);
+}
+@keyframes content{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-2.4rem);
+    }
+    100%{
+        transform: translateY(0);
+    }
 }
 
 @media screen and (max-width: 600px) {
