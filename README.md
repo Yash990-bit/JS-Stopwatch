@@ -22,15 +22,9 @@ To run this project locally, follow these steps:
 
 1. Clone the repository to your local machine:
     ```bash
-    git clone https://github.com/YOUR_USERNAME/stopwatch.git
+    git clone https://github.com/Yash990-bit/JS-Stopwatch
     ```
 
-2. Navigate to the project folder:
-    ```bash
-    cd stopwatch
-    ```
-
-3. Open `index.html` in your preferred browser to view the stopwatch in action.
 
 ## Folder Structure
 
