@@ -50,7 +50,7 @@ To run this project locally, follow these steps:
 
 Here is a live demo of the stopwatch:
 
-[Live Demo Link] (https://illustrious-cheesecake-5084db.netlify.app/)
+[(https://illustrious-cheesecake-5084db.netlify.app/)]
 
 
 
